@@ -1,0 +1,102 @@
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;;
+  cursor: pointer;
+}
+
+.github-button {
+  background-color: rgb(46, 164, 0);
+  color:white;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bootstrap-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bootstrap-button#bsone {
+  background-color: rgb(121,82,179);
+  color: white;
+  border: none;
+}
+
+.bootstrap-button#bstwo {
+  background-color: white;
+  color: rgb(68, 68, 68);
+  border: 1px solid rgb(108, 117, 125);
+
+}
+
+.linkedin-button {
+  font-weight: 700;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.linkedin-button#lione {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  width: 200px;
+}
+
+.linkedin-button#litwo {
+  background-color: white;
+  color: rgb(10,102,194);
+  border: 1px solid rgb(10,102,194);
+  width: 75px;
+}
+
+a {
+  color: rgb(0,113,133)
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.price {
+  font-weight:bold;
+  color: rgb(0,118,0)
+}
+
+.buttons {
+  height: 30px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.buttons#add {
+  background-color: rgb(255,216,20);
+}
+
+.buttons#buy {
+  background-color: rgb(255,164,28);
+}

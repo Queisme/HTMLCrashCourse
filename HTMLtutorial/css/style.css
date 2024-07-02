@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: rgb(17, 17, 17);
+  color: rgb(228, 228, 228);
+}
+
+body {
+  margin: 8px;
+  padding: 8px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
