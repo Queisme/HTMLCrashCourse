@@ -9,12 +9,12 @@ HTML Tutorial for Beginners: HTML Crash Course
 https://www.youtube.com/watch?v=qz0aGYrrlhU
 
 1. Fundamentals of Web Development with HTML & CSS
-   &bull; languages & tools of web development
-   &bull; key concepts (URL, HTTP, DOM, etc.)
-   &bull; How websites work
-   &bull; Inspect network traffic using DevTools
-   &bull; Basics of HTML & CSS
-   &bull; Validating web pages
+   + languages & tools of web development
+   + key concepts (URL, HTTP, DOM, etc.)
+   + How websites work
+   + Inspect network traffic using DevTools
+   + Basics of HTML & CSS
+   + Validating web pages
 2. Advanced Concepts
 3. Building a Web Site
 
@@ -31,9 +31,9 @@ SuperSimpleDev
 
 https://www.youtube.com/watch?v=G3e-cpL7ofc
 
-HTML & CSS Basics
-CSS Box Model
-CSS Grid
-Flexbox
-Position Property
++ HTML & CSS Basics
++ CSS Box Model
++ CSS Grid
++ Flexbox
++ Position Property
 + more
