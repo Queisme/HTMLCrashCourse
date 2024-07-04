@@ -1,0 +1,75 @@
+.neb {
+  width: 200px;
+} 
+
+.neb.start {
+  border-radius: 20px;
+}
+
+.neb.circle {
+  border-radius: 100px;
+}
+
+.text.start {
+  border:1px solid rgb(199, 199, 199);
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.text.next {
+  box-shadow: 5px 0px 15px rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 250px;
+  width: 500px;
+  padding: 10px 15px;  
+}
+
+.linked {
+  width: 250px;
+}
+
+.linked.text {
+  font-size: 10px;
+}
+
+.linked.box {
+  border: 1px solid rgb(78, 78, 78);
+  border-radius: 4px;
+  width: 230px;
+}
+
+.agree {
+  width: 235px;
+  border: none;
+  border-radius: 125px;
+  padding: 12px;
+  background-color: rgb(0, 110, 255);
+  color: rgb(209, 209, 209);
+}
+
+.tweet.image {
+  width: 50px;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.tweet.input {
+  vertical-align: middle;
+  border: none;
+  color: rgb(88, 88, 88);
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.tweet-button {
+  vertical-align: middle;
+  background-color: rgb(0, 114, 190);
+  color: white;
+  width: 70px;
+  border: none;
+  border-radius: 30px;
+  padding: 8px;
+  font-weight: bold;
+
+}
