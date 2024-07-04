@@ -1,6 +1,182 @@
+p {
+  padding: 0;
+  margin: 0px;
+}
+
 .tahoma {
   font-family: tahoma;
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
+.arial {
+  font-weight: bold;
+  font-size: 23px;
+  font-family: arial;
+  margin-bottom: 0;
+}
+
+.arial-subtext {
+  font-family: arial;
+  font-style: italic;
+  color: red;
+  font-weight: 550;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.title-subtext {
+  font-family: verdana;
+  font-size: 12px;
+  color: rgb(110, 110, 110);
+  margin-top:5px;
+}
+
+.description {
+  width: 225px;
+  margin-top: 14px;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+button.start{
+  background-color: rgb(0, 75, 0);
+  color: white;
+  font-family: verdana;
+  font-size: 13px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
+.one {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.two {
+  font-family: arial;
+  font-size: 15px;
+  width: 350px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.three {
+  font-family: arial;
+  font-size: 13px;
+  width: 350px;
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(110, 110, 255);
+  margin-bottom: 8px;
+}
+
+.macbook {
+  font-family: arial;
+  text-align: center;
+  width: 300px;  
+}
+
+.macbook.new {
+  color: red;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.macbook.pro {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom:10px;
+}
+
+.macbook.super {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.macbook.price {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.buy {
+  background-color: rgb(67, 121, 221);
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 20px;
+  padding: 4px 4px;
+  width: 40px;  
+  margin-left: 130px;
+}
+
+.stock {
+  font-family: arial;
+}
+
+.stock.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.usd {
+  font-size: 12px;
+  color: gray;
+  margin-left: 5px;
+}
+
+.stock.percent {
+  color: green;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.stock.time {
+  color: rgb(88, 88, 88);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.negative {
+  color: rgb(184, 0, 0);
+}
+
+.fcc {
+  font-family: arial;
+}
+
+.fcc.name {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.fcc.email {
+  color: gray;
+  font-weight: 500;
+}
+
+.fcc.text {
+  width: 500px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+
+.fcc.user {
+  color: rgb(0, 162, 255);
+}
