@@ -3,40 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="youtube.css">
-  <title>CSS Display Property</title>
+  <title>YouTube.com Mockup</title>
 </head>
 <body>
   <input class="search-bar" type="text" placeholder="Search">
   
   <div class="vid-container">
-    <img class="thumbnail one" src="thumbnails/thumbnail-1.webp" alt="thumbnail">
-  
-    <p class="vid-title">
-    Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="vid-author">
-    Marques Brownlee
-    </p>
-    <p class="vid-stats">
-    3.4M views &#183; 6 months ago
-    </p>
+    <div class="thumbnail-row">
+      <img class="thumbnail one" src="thumbnails/thumbnail-1.webp" alt="thumbnail">
+    </div>
+    <div>
+      <div class="channelpic container">
+        <img class="channelpic profile" src="channelpics/channel-1.jpeg" alt="Profile picture of the channel">
+      </div>
+      <div class="vid-info">
+        <p class="vid-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="vid-author">
+          Marques Brownlee
+        </p>
+        <p class="vid-stats">
+          3.4M views &#183; 6 months ago
+        </p>
+      </div>     
+    </div>
+  </div>
+  <div class="vid-container">
+    <div class="thumbnail-row">
+      <img class="thumbnail one" src="thumbnails/thumbnail-2.webp" alt="thumbnail">
+    </div>
+    <div>
+      <div class="channelpic container">
+        <img class="channelpic profile" src="channelpics/channel-2.jpeg" alt="Profile picture of the channel">
+      </div>
+      <div class="vid-info">
+        <p class="vid-title">
+          Try Not To Laugh Challenge #9
+        </p>
+        <p class="vid-author">
+          Markiplier
+        </p>
+        <p class="vid-stats">
+          19M views &#183; 4 years ago
+        </p>
+      </div>     
+    </div>
   </div>
 
-  <div class="vid-container">
-    <img class="thumbnail two" src="thumbnails/thumbnail-2.webp" alt="thumbnail">
-  
-    <p class="vid-title">
-      Try Not To Laugh Challenge #9
-    </p>
-    <p class="vid-author">
-      Markiplier
-    </p>
-    <p class="vid-stats">
-      19M views &#183; 4 years ago
-    </p>
-  </div>
-  
   <script></script>
 </body>
 </html>

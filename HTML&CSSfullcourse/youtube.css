@@ -1,3 +1,9 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .thumbnail {
   width: 300px;
   display:block;
@@ -9,7 +15,11 @@
 }
 
 .vid-title {
-  width: 300px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
 }
 
 .vid-container {
@@ -17,4 +27,34 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 5px;
+}
+
+.channelpic.container {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.channelpic.profile {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.vid-info {
+  display:inline-block;
+  width: 200px;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+.vid-author,
+.vid-stats {
+  font-size: 12px;
+  color:rgb(96, 96, 96);
+}
+
+.vid-author {
+  margin-bottom: 4px;
 }
