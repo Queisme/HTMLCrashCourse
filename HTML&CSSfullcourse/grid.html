@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
+  <title>CSS Grid Practice</title>
+</head>
+<body style="padding-bottom: 1000px">
+  <div style="display: grid; grid-template-columns: 100px 100px;">
+    <div style="background-color: lightblue;">div 1</div>
+    <div style="background-color: lightpink;">div 2<p>Paragraph of text</p></div>
+  </div>
+  <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 30px;">
+    <div style="background-color: lightblue;">100px</div>
+    <div style="background-color: lightpink;">100px<p>Paragraph of text</p></div>
+    <div style="background-color: lightgreen;">200px</div>
+    <div style="background-color: lightslategray">100px</div>
+  </div>
+  <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px;">
+    <div style="background-color: rgb(104, 156, 216);">100px</div>
+    <div style="background-color: rgb(220, 182, 255);">1fr = fr - free space</div>
+  </div>
+  <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px;">
+    <div style="background-color: rgb(180, 104, 216);">100px</div>
+    <div style="background-color: rgb(246, 182, 255);">1fr = fr - free space</div>
+    <div style="background-color: rgb(174, 65, 189);">2fr = fr - free space</div>
+  </div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 15px; column-gap: 20px; row-gap: 40px;">
+    <div style="background-color: blue; color:white;height: 200px; ">1fr</div>
+    <div style="background-color: plum;height: 200px; ">1fr</div>
+    <div style="background-color: orangered;height: 200px; ">1fr</div>
+    <div style="background-color: rgb(0, 255, 55);height: 200px; ">1fr</div>
+    <div style="background-color: rgb(100, 26, 100); color: white;height: 200px; ">1fr</div>
+    <div style="background-color: rgb(255, 0, 157);color: white;height: 200px; ">1fr</div>
+  </div>
+  <script></script>
+</body>
+</html>
