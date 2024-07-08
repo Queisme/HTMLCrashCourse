@@ -1,0 +1,79 @@
+.container.one {
+  display: flex;
+  flex-direction: row;
+}
+
+.conone.one {
+  background-color: palevioletred;
+  width: 200px;
+
+}
+
+.conone.two {
+  background-color: rebeccapurple;
+  width: 75px;
+}
+
+.container.two {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contwo.one {
+  background-color: firebrick;
+  width: 50px;
+}
+
+.contwo.two {
+  background-color: darkgreen;
+  flex: 1;
+}
+
+.contwo.three {
+  background-color: salmon;
+  width: 75px;
+}
+
+.container.three {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.conthree.one {
+  background-color: olive;
+}
+
+.conthree.two {
+  background-color: yellowgreen;
+}
+
+.conthree.three {
+  background-color: teal;
+}
+
+.conthree.four {
+  background-color: indigo;
+  color: white;
+}
+
+.container.four {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+.confour.one {
+  background-color: darkgoldenrod;
+}
+
+.confour.two {
+  background-color: orchid;
+}
+
